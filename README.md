@@ -27,6 +27,10 @@ A small micro service has been written in Go, so we can get results as you want 
   ```
 
 After that I containerized the application with Dockerfile .
+  P.S. Please change directories in Dockerfile otherwise you can get error.
+  ```json 
+  COPY . /home/ubuntu/test2
+  ```
 
 Finally I developed a manifest file and then deploy application in kubernetes and call curl as below  ,
 
