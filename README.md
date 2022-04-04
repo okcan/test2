@@ -22,13 +22,17 @@ Publish your code, Dockerfile, and Kubernetes manifests to a public Git reposito
 
 A small micro service has been written in Go, so we can get results as you want and you can see as below .
 
-```json [{"timestamp":"2022","hostname":"test","engine":"docker","visitor ":"192.168.1.1"}] ```
+```json 
+  [{"timestamp":"2022","hostname":"test","engine":"docker","visitor ":"192.168.1.1"}] 
+  ```
 
 After that I containerized the application with Dockerfile .
 
 Finally I developed a manifest file and then deploy application in kubernetes and call curl as below  ,
 
-```json ubuntu@bastion-node:~$ curl http://127.0.0.1:8081/
-[{"timestamp":"2022","hostname":"test","engine":"docker","visitor ":"192.168.1.1"}]```
+```json 
+  ubuntu@bastion-node:~$ curl http://127.0.0.1:8081/
+[{"timestamp":"2022","hostname":"test","engine":"docker","visitor ":"192.168.1.1"}]
+  ```
 
 By the way , 8080 works but I did port forward because another 8080 system is running.
