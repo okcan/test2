@@ -40,3 +40,5 @@ Finally I developed a manifest file and then deploy application in kubernetes an
   ```
 
 By the way , 8080 works but I did port forward because another 8080 system is running.
+
+  P.S.If desired, the references I used can be shared.
