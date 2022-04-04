@@ -44,8 +44,6 @@ var employees = map[string]Employee{
 
         "0000000000": Employee{Timestamp: "2022", Hostname: "test", Engine: "docker", Visitor: "192.168.1.1"},
 
-//"0000000000": Employee{timestamp: "101", hostname: "Susan", engine: "Matthew", visitor: "HR"},
-
 }
 
 
